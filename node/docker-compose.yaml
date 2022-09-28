@@ -10,7 +10,7 @@ services:
     networks:
       - nodenetwork
     volumes:
-      - ./nodejs:/usr/src/app
+      - node-data:/usr/src/app
     tty: true
     ports:
       - "3000:3000"
@@ -44,3 +44,6 @@ services:
 networks:
   nodenetwork:
     driver: bridge
+
+volumes:
+  node-data:
