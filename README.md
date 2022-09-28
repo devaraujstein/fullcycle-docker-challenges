@@ -37,5 +37,5 @@ But, if you want to build and run locally, follow the steps bellow
 
 ```
 > cd node
-> docker compose up -d
+> docker-compose up -d
 ```
